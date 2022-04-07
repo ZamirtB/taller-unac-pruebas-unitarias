@@ -1,6 +1,6 @@
 import {monthsUnac} from "../src/months-unac";
 
 
-test("Pasar", ()=>{
-    expect(monthsUnac().toString());
+test("Contiene mes llamado Jan", ()=>{
+    expect(monthsUnac()).toContain("Jan");
 })
